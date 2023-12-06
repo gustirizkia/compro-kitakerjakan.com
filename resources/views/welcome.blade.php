@@ -11,9 +11,9 @@
     <!--    Document Title-->
     <!-- ===============================================-->
     <title>Kitakerjakan</title>
-
-
-    <meta name="title" content="Kitakerjakan Partner Keja Terbaikmu" />
+    <!-- Primary Meta Tags -->
+    <title>Kitakerjakan</title>
+    <meta name="title" content="Kitakerjakan" />
     <meta name="description"
         content="Kita Kerjakan.com hadir untuk menjadi
         patner bisnis anda dengan berbagai
@@ -22,25 +22,25 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ url('/') }}" />
-    <meta property="og:title" content="Kitakerjakan Partner Keja Terbaikmu" />
+    <meta property="og:url" content="{{ url('/>') }}" />
+    <meta property="og:title" content="Kitakerjakan" />
     <meta property="og:description"
         content="Kita Kerjakan.com hadir untuk menjadi
         patner bisnis anda dengan berbagai
         layanan konsultasi dibidang Perpajakan,
         Keuangan dan Legalitas perusahaan." />
-    <meta property="og:image" content="{{ asset('images/logo.png') }}" />
+    <meta property="og:image" content="{{ asset('images/LOGO.jpg') }}" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="{{ url('/>') }}" />
-    <meta property="twitter:title" content="Kitakerjakan Partner Keja Terbaikmu" />
+    <meta property="twitter:url" content="{{ url('/') }}" />
+    <meta property="twitter:title" content="Kitakerjakan" />
     <meta property="twitter:description"
         content="Kita Kerjakan.com hadir untuk menjadi
         patner bisnis anda dengan berbagai
         layanan konsultasi dibidang Perpajakan,
         Keuangan dan Legalitas perusahaan." />
-    <meta property="twitter:image" content="{{ asset('images/logo.png') }}" />
+    <meta property="twitter:image" content="{{ asset('images/LOGO.jpg') }}" />
 
     <!-- Meta Tags Generated with https://metatags.io -->
 
