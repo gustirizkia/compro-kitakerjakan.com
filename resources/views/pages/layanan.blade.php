@@ -12,7 +12,7 @@
     <meta property="og:url" content="{{ route('detail-layanan', $item->slug) }}" />
     <meta property="og:title" content="Kitakerjakan" />
     <meta property="og:description" content="{{ $item->deskripsi_singkat }}" />
-    <meta property="og:image" content="{{ asset('images/LOGO.jpg') }}" />
+    <meta property="og:image" content="{{ asset('storage/' . $item->image) }}" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
