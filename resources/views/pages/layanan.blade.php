@@ -70,20 +70,30 @@
             <div class="mt-3">
                 <div class="row justify-content-center">
                     @foreach ($item->detail as $detail)
-                        <div class="col-md-4">
-                            <div class="card border">
-                                <div class="card-body">
-                                    <img src="{{ asset('storage/' . $detail->image) }}" alt=""
-                                        class="img-fluid rounded">
-                                    <div class="fw-bold text-dark mt-2">
-                                        {{ $detail->nama }}
+                        <div class="col-md-4 mb-3">
+                            <div class="card border h-100">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="">
+                                        <img src="{{ asset('storage/' . $detail->image) }}" alt=""
+                                            class="img-fluid rounded">
+                                        <div class="fw-bold text-dark mt-2">
+                                            {{ $detail->nama }}
+                                        </div>
+                                        {!! $detail->deskripsi_singkat !!}
                                     </div>
-                                    {!! $detail->deskripsi_singkat !!}
 
                                     <div class="mt-2">
                                         <a href=""
-                                            class="btn-block w-100 btn btn-lg btn-primary btn-block text-center mt-3 rounded-pill">Hubungi
-                                            Kami</a>
+                                            class="btn-block w-100 btn btn-lg btn-primary btn-block text-center mt-3 rounded-pill d-flex align-items-center justify-content-center">
+                                            <div class="text-start">
+
+                                                Rp. {{ number_format($detail->harga) }}
+
+                                            </div>
+                                            <div class="text-end ms-2">
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
