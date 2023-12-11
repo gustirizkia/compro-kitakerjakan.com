@@ -5,20 +5,20 @@
 @endsection
 
 @push('meta')
-    <meta name="description" content="{{ $item->deksripsi_singkat }}" />
+    <meta name="description" content="{{ $item->deskripsi_singkat }}" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ route('detail-layanan', $item->slug) }}" />
     <meta property="og:title" content="Kitakerjakan" />
-    <meta property="og:description" content="{{ $item->deksripsi_singkat }}" />
+    <meta property="og:description" content="{{ $item->deskripsi_singkat }}" />
     <meta property="og:image" content="{{ asset('images/LOGO.jpg') }}" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{{ route('detail-layanan', $item->slug) }}" />
     <meta property="twitter:title" content="Kitakerjakan" />
-    <meta property="twitter:description" content="{{ $item->deksripsi_singkat }}" />
+    <meta property="twitter:description" content="{{ $item->deskripsi_singkat }}" />
     <meta property="twitter:image" content="{{ asset('storage/' . $item->image) }}" />
 @endpush
 
