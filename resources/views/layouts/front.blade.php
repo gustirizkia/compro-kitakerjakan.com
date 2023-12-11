@@ -11,6 +11,7 @@
     <!--    Document Title-->
     <!-- ===============================================-->
     <title>@yield('title', 'Kitakerjakan')</title>
+    @stack('meta')
     <meta name="description"
         content="Kita Kerjakan.com hadir untuk menjadi
         patner bisnis anda dengan berbagai
