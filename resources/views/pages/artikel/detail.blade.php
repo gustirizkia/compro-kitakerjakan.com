@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title')
-    Artikel Kitakerjakan
+    Kitakerjakan | {{ $item->judul }}
 @endsection
 
 @push('addStyle')
@@ -45,7 +45,7 @@
     <div class="container">
         <div class="row mt-5 justify-content-center">
             <div class="col-md-8 mb-3 artikel">
-                <img src="{{ asset('storage/' . $item->image) }}" alt="" class="img-fluid rounded">
+                <img src="{{ asset('storage/' . $item->image) }}" alt="" class="img-fluid rounded w-100">
                 <div class="mt-3">
                     <h1 class="h4">
                         {{ $item->judul }}
