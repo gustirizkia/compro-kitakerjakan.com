@@ -53,6 +53,10 @@
         .begin .h5 {
             font-size: 1rem;
         }
+
+        body {
+            color: rgb(17, 17, 17);
+        }
     </style>
 
     <style>
@@ -87,6 +91,15 @@
         .text-primary {
             color: #003070 !important;
         }
+
+        a {
+            text-decoration: unset;
+        }
+
+        p {
+            font-size: 14px;
+            color: rgb(17, 17, 17);
+        }
     </style>
     @stack('addStyle')
 </head>
@@ -104,7 +117,7 @@
                     <div class="d-flex align-items-center">
                         <img src="{{ asset('images/logo.png') }}" alt="" class="img-fluid"
                             style="    height: 52px;" />
-                        <b class="" style="color: #003070">Kitakerjakan</b>
+                        <b class="d-none d-md-block" style="color: #003070">Kitakerjakan</b>
                     </div>
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"

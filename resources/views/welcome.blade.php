@@ -339,23 +339,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 text-center mb-5 z-index-1">
+                <div class="col-xl-5 text-center mb-5 z-index-1 mt-4 mt-md-0">
                     <h1 class="display-3 fw-bold fs-4 fs-md-6">Kontak kami</h1>
                     <p>Buat Jadwal Dengan Kami</p>
                     <div class="text-start text-dark">
-                        <div class="h5">
+                        <div class="fw-bold mb-3">
                             <div class="btn btn-primary btn-sm">
                                 <i class="bi bi-telephone"></i>
                             </div>
                             <span class="ms-2">087866075324 - 081998367365</span>
                         </div>
-                        <div class="h5">
+                        <div class="fw-bold mb-3">
                             <div class="btn btn-primary btn-sm">
                                 <i class="bi bi-envelope-at"></i>
                             </div>
                             <span class="ms-2">hub@kitakerjakan.com</span>
                         </div>
-                        <div class="h5">
+                        <div class="fw-bold mb-3">
                             <div class="btn btn-primary btn-sm">
                                 <i class="bi bi-geo-alt"></i>
                             </div>

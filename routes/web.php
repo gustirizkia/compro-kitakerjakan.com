@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArtikelController;
 use App\Http\Controllers\LayananController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,6 @@ Route::get('/', function () {
 });
 
 Route::get("layanan-kami/{slug}", [LayananController::class, "detail"])->name("detail-layanan");
+
+Route::get("artikel", [ArtikelController::class, 'index'])->name("artikel");
+Route::get("artikel/{slug}", [ArtikelController::class, 'detail'])->name("artikel-detail");
