@@ -29,14 +29,14 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ route('artikel-detail', $item->slug) }}" />
-    <meta property="og:title" content="Kitakerjakan" />
+    <meta property="og:title" content="Kitakerjakan | {{ $item->judul }}" />
     <meta property="og:description" content="{{ $item->keyword }}" />
     <meta property="og:image" content="{{ asset('storage/' . $item->image) }}" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{{ route('artikel-detail', $item->slug) }}" />
-    <meta property="twitter:title" content="Kitakerjakan" />
+    <meta property="twitter:title" content="Kitakerjakan | {{ $item->judul }}" />
     <meta property="twitter:description" content="{{ $item->keyword }}" />
     <meta property="twitter:image" content="{{ asset('storage/' . $item->image) }}" />
 @endpush
