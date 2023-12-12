@@ -154,7 +154,7 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link fw-medium" href="#">Kontak Kami</a></li>
-                        <li class="nav-item"><a class="nav-link fw-medium" href="#">Artikel</a></li>
+                        <li class="nav-item"><a class="nav-link fw-medium" href="/artikel">Artikel</a></li>
                         <li class="nav-item"><a class="nav-link fw-medium" href="#">
                                 <div class="btn btn-lg btn-primary btn-block w-100 text-center btn-sm ">
                                     Kontak Kami
